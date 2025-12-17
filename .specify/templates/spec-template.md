@@ -84,11 +84,11 @@
 
 ### Functional Requirements
 
-- **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]
-- **FR-002**: System MUST [specific capability, e.g., "validate email addresses"]  
-- **FR-003**: Users MUST be able to [key interaction, e.g., "reset their password"]
-- **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
-- **FR-005**: System MUST [behavior, e.g., "log all security events"]
+- **FR-001**: System MUST align all technical claims with official documentation from authoritative sources (ROS 2, Gazebo, NVIDIA Isaac, OpenAI)
+- **FR-002**: System MUST provide content accessible to graduate students in AI and Robotics programs
+- **FR-003**: System MUST maintain consistent terminology across AI, robotics, and simulation domains
+- **FR-004**: System MUST support modular, self-contained chapters with clear dependencies
+- **FR-005**: System MUST implement spec-driven content generation with formal specifications
 
 *Example of marking unclear requirements:*
 
@@ -109,7 +109,7 @@
 
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: [Measurable metric, e.g., "Graduate students can understand and implement examples from the book content"]
+- **SC-002**: [Measurable metric, e.g., "Technical claims verified against official documentation sources"]
+- **SC-003**: [User satisfaction metric, e.g., "Consistent terminology enables clear understanding across domains"]
+- **SC-004**: [Educational metric, e.g., "Modular chapters allow flexible curriculum design"]

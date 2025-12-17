@@ -1,0 +1,34 @@
+Front Page Module Navigation for Physical AI Book
+
+Target audience:
+Students and readers of the Physical AI & Humanoid Robotics book
+
+Focus:
+Designing a clear, user-friendly homepage that provides direct access to all course modules
+
+Success criteria:
+- Front page displays visible buttons/cards for all modules
+- Each module button links to the first chapter of that module
+- Navigation works without relying on the sidebar
+- Layout is responsive and usable on desktop and mobile
+
+Scope:
+- Custom homepage using Docusaurus (src/pages/index.js)
+- Module cards for:
+  - Module 1: ROS 2 – Robotic Nervous System
+  - Module 2: Digital Twin (Gazebo & Unity)
+  - Module 3: AI-Robot Brain (NVIDIA Isaac)
+  - Module 4: Vision-Language-Action (VLA)
+- Clear titles and short descriptions per module
+
+Constraints:
+- Use existing Docusaurus theme (no heavy UI frameworks)
+- Links must match existing docs paths (no broken links)
+- Keep implementation simple and maintainable
+- Compatible with GitHub Pages deployment
+
+Not building:
+- Full landing-page redesign
+- Authentication or user accounts
+- Progress tracking or analytics
+- Advanced animations or custom theming

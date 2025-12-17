@@ -1,55 +1,50 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (initial creation) → 1.0.0
+Added sections: All sections (initial creation)
+Templates requiring updates: N/A
+Follow-up TODOs: None
+-->
+# AI/Spec-Driven Book on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Technical Accuracy and Real-World Alignment
+All technical claims must align with official documentation from ROS 2, Gazebo, NVIDIA Isaac, OpenAI, and other authoritative sources. Code examples must be executable or clearly labeled as pseudocode to maintain credibility and educational value.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Graduate-Level Clarity for AI & Robotics Learners
+Content must be accessible to graduate students in AI and Robotics programs, balancing theoretical depth with practical application. Terminology must be consistent across AI, robotics, and simulation domains to avoid confusion.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Spec-Driven Reproducible Content Generation
+All content creation follows Spec-Kit Plus methodology with formal specifications driving implementation. Every chapter, example, and feature must begin with a clear specification before implementation to ensure consistency and completeness.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Embodied Intelligence and Humanoid Systems Focus
+Development prioritizes practical applications in embodied intelligence and humanoid robotics systems. Content must emphasize the integration of perception, cognition, and action in physical systems rather than abstract AI concepts.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Modular and Self-Contained Chapters
+Each chapter and module must be designed as a standalone unit with clear dependencies and learning objectives. This enables flexible curriculum design and allows readers to engage with topics in non-linear fashion without losing continuity.
 
-### [PRINCIPLE_6_NAME]
+### Integrated RAG Chatbot Functionality
+The embedded RAG chatbot must strictly answer from book content or user-selected text, ensuring accuracy and preventing hallucination. The chatbot serves as an intelligent study aid rather than a general-purpose AI assistant.
 
+## Additional Technical Constraints
 
-[PRINCIPLE__DESCRIPTION]
+- Format: Markdown compatible with Docusaurus for seamless documentation generation
+- Authoring: Claude Code + Spec-Kit Plus for reproducible, high-quality content
+- Deployment: GitHub Pages for public accessibility and version control
+- Code inclusion: Python, ROS 2, URDF, and pseudocode examples for hands-on learning
+- Simulation environments: ROS 2 (robotic nervous system), Gazebo & Unity (digital twins)
+- Hardware focus: NVIDIA Isaac (perception, navigation), Vision-Language-Action with LLMs
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow Standards
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Content validation: All technical claims verified against official documentation
+- Code testing: Examples must be executable or clearly marked as conceptual
+- Cross-referencing: Consistent linking between related concepts and chapters
+- Review process: Technical accuracy validated by domain experts
+- Quality gates: Content must meet educational objectives before publication
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all aspects of the AI/Spec-Driven Book on Physical AI & Humanoid Robotics project. All development activities must comply with these principles. Amendments require documentation of changes, approval from project stakeholders, and a migration plan for existing content. All pull requests and reviews must verify constitutional compliance. Complexity must be justified with clear educational or technical benefits. Use this constitution as the primary guidance document for all development decisions.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16

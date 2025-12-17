@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Physical AI & Humanoid Robotics
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the **Physical AI & Humanoid Robotics** educational platform. This comprehensive course covers the essential technologies and concepts needed to understand and develop intelligent humanoid robots.
+
+## Course Modules
+
+Explore our four comprehensive modules designed for graduate students and advanced learners in AI & Robotics:
+
+### [Module 1: ROS 2 – Robotic Nervous System](./module-1-ros2-arch/index.md)
+- **Focus**: Using ROS 2 as middleware to control humanoid robots, bridging AI agents with physical actuators
+- **Topics**: ROS 2 architecture, communication patterns (Nodes, Topics, Services), Python control with rclpy, URDF robot description
+
+### [Module 2: Digital Twin (Gazebo & Unity)](./module-2-gazebo-unity/index.md)
+- **Focus**: Creating photorealistic simulation environments for humanoid robot testing and development
+- **Topics**: Digital twin fundamentals, physics simulation with Gazebo, visual realism with Unity, human-robot interaction
+
+### [Module 3: AI-Robot Brain (NVIDIA Isaac)](./module-3-isaac/index.md)
+- **Focus**: Advanced perception, simulation, and navigation for humanoid robots using NVIDIA Isaac
+- **Topics**: AI perception fundamentals, Isaac Sim for photorealistic simulation, Isaac ROS for perception pipelines, Nav2 for navigation
+
+### [Module 4: Vision-Language-Action (VLA)](./module-4-vla/index.md)
+- **Focus**: Integration of LLMs with robotics for voice-driven cognitive planning and autonomous humanoid behavior
+- **Topics**: Voice-to-action with OpenAI Whisper, cognitive planning with ROS 2, LLM integration for robotic control
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Begin your journey into Physical AI and Humanoid Robotics by exploring any of the modules above. Each module is designed to build upon the previous ones, but can also be studied independently based on your current knowledge level.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The course materials include theoretical concepts, practical examples, exercises, and real-world applications to provide a comprehensive understanding of humanoid robotics.

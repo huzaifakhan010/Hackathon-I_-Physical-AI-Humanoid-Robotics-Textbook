@@ -1,0 +1,57 @@
+---
+id: 13
+title: Create VLA Module Tasks
+stage: tasks
+date: 2025-12-16
+surface: agent
+model: Claude Sonnet 4.5
+feature: vla
+branch: 004-vla
+user: user
+command: /sp.tasks
+labels: [tasks, vla, vision-language-action, robotics, llm]
+links:
+  spec: specs/004-vla/spec.md
+  plan: specs/004-vla/plan.md
+  adr: null
+  pr: null
+files:
+  - specs/004-vla/tasks.md
+tests:
+  - none
+---
+
+## Prompt
+
+```text
+$ARGUMENTS
+```
+
+## Response snapshot
+
+Created comprehensive task list for the Vision-Language-Action (VLA) integration module with 74 specific tasks organized across 7 phases. Tasks are organized by user story to enable independent implementation and testing:
+
+- Phase 1: Setup (3 tasks) - Project initialization
+- Phase 2: Foundational (11 tasks) - Blocking prerequisites
+- Phase 3: User Story 1 - Voice-to-Action Pipeline Implementation (12 tasks)
+- Phase 4: User Story 2 - Cognitive Planning and ROS 2 Action Sequencing (11 tasks)
+- Phase 5: User Story 3 - Autonomous Humanoid Integration Capstone (12 tasks)
+- Phase 6: Reference Materials and Tutorials (9 tasks)
+- Phase 7: Polish & Cross-Cutting Concerns (16 tasks)
+
+Each task follows the required format with checkboxes, IDs, parallel markers [P], and story labels [US1/US2/US3] where appropriate. Tasks include specific file paths and are organized to support parallel execution where possible.
+
+## Outcome
+
+- ✅ Impact: Complete task breakdown created with 74 specific, actionable tasks for VLA module
+- 🧪 Tests: Tasks include test components per requirements
+- 📁 Files: Created tasks.md with comprehensive task breakdown
+- 🔁 Next prompts: Ready for implementation with clear task execution plan
+- 🧠 Reflection: Tasks are well-structured for parallel execution and independent validation
+
+## Evaluation notes (flywheel)
+
+- Failure modes observed: none
+- Graders run and results (PASS/FAIL): PASS - all requirements met
+- Prompt variant (if applicable): N/A
+- Next experiment (smallest change to try): Begin task execution following priority order

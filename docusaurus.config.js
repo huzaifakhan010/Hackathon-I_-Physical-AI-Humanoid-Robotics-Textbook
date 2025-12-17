@@ -30,7 +30,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -94,6 +94,30 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'ros2Sidebar',
+            position: 'left',
+            label: 'Module 1: ROS 2',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'digitalTwinSidebar',
+            position: 'left',
+            label: 'Module 2: Digital Twin',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'isaacSidebar',
+            position: 'left',
+            label: 'Module 3: Isaac AI',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'vlaSidebar',
+            position: 'left',
+            label: 'Module 4: VLA',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

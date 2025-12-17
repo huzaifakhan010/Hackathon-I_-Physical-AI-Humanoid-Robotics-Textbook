@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+### Alignment with Core Principles:
+- [ ] Technical Accuracy: All technical claims align with official documentation from ROS 2, Gazebo, NVIDIA Isaac, OpenAI
+- [ ] Educational Clarity: Content accessible to graduate students, consistent terminology across domains
+- [ ] Spec-Driven Approach: Formal specifications driving implementation
+- [ ] Embodied Intelligence Focus: Practical applications in humanoid robotics systems
+- [ ] Modularity: Self-contained chapters with clear dependencies
+- [ ] RAG Chatbot: Strictly answers from book content to prevent hallucination
 
 ## Project Structure
 

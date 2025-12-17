@@ -1,0 +1,81 @@
+/**
+ * CSS module for ModuleCard component
+ */
+
+.moduleCard {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.moduleCardLink {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all var(--ifm-transition-fast) ease;
+  height: 100%;
+  text-decoration: none;
+}
+
+.moduleCardLink:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.moduleCardHeader {
+  margin-bottom: 0.5rem;
+}
+
+.moduleCardTitle {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: var(--ifm-heading-font-weight);
+  color: var(--ifm-heading-color);
+}
+
+.moduleCardBody {
+  margin-bottom: 1rem;
+}
+
+.moduleCardDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.5;
+}
+
+.moduleCardFooter {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.moduleCardButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background-color var(--ifm-transition-fast) ease;
+}
+
+.moduleCardLink:hover .moduleCardButton {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+  .moduleCard {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .moduleCard {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
